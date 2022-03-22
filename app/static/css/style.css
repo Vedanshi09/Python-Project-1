@@ -1,3 +1,28 @@
 body {
-font-size: 200%;
+    font-size: 150%;
+    background-color: antiquewhite;
+}
+div {
+  text-align: justify;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+id.contact{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+}
+.btn-default{
+    background-color: #325c3a;
+    color:#FFF;
+    border-color: #325c3a;
 }
