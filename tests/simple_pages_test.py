@@ -10,9 +10,9 @@ def test_request_main_menu_links(client):
     assert b'<a class="nav-link" href="/page3">Python/Flask</a>' in response.data
     assert b'<a class="nav-link" href="/page4">CI/CD</a>' in response.data
     assert b'<a class="nav-link" href="/page5">Article1</a>' in response.data
-    assert b'<a class="nav-link" href="/page5">Article2</a>' in response.data
-    assert b'<a class="nav-link" href="/page5">Article3</a>' in response.data
-    assert b'<a class="nav-link" href="/page5">Article4</a>' in response.data
+    assert b'<a class="nav-link" href="/page6">Article2</a>' in response.data
+    assert b'<a class="nav-link" href="/page7">Article3</a>' in response.data
+    assert b'<a class="nav-link" href="/page8">Article4</a>' in response.data
 
 def test_request_index(client):
     """This makes the index page"""
